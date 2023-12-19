@@ -67,3 +67,5 @@ jobs:
           app-name: 'elvinaswebbapp-lab2'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3A064AA0BA404874B2161C6F1B16E9B0 }}
+          package: ./azure-lab2  # Specify the path to the directory containing your application code
+          start-up-command: 'flask --app integration.py run'  # Specify the command to start your Flask app

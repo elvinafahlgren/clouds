@@ -1,1 +1,1 @@
-pip install==1.19.2 --no-build-isolation
+pip install==23.3.2

@@ -1,1 +1,1 @@
-numpy==1.18.0
+pip install==1.19.2 --no-build-isolation
